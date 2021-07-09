@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Onion_Architecture.UI.MVC</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Onion-Architecture.Core.ApplicationServices\Onion-Architecture.Core.ApplicationServices.csproj" />
+    <ProjectReference Include="..\Onion-Architecture.Core.Contracts\Onion-Architecture.Core.Contracts.csproj" />
+    <ProjectReference Include="..\Onion-Architecture.Core.Entities\Onion-Architecture.Core.Entities.csproj" />
+    <ProjectReference Include="..\Onion-Architecture.DAL.EF\Onion-Architecture.DAL.EF.csproj" />
+    <ProjectReference Include="..\Onion-Architecture.DAL.Fake\Onion-Architecture.DAL.Fake.csproj" />
+  </ItemGroup>
+
+</Project>

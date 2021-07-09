@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Onion_Architecture.DAL.EF</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Onion-Architecture.Core.Contracts\Onion-Architecture.Core.Contracts.csproj" />
+    <ProjectReference Include="..\Onion-Architecture.Core.Entities\Onion-Architecture.Core.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
