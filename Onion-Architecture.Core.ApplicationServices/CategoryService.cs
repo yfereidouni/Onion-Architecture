@@ -9,6 +9,7 @@ namespace Onion_Architecture.Core.ApplicationServices
     public class CategoryService
     {
         private readonly ICategoryRepository _categoryRepository;
+
         public CategoryService(ICategoryRepository categoryRepository)
         {
             _categoryRepository = categoryRepository;
